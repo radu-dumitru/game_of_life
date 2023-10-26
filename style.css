@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+#wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.row {
+    flex: 1;
+    display: flex;
+}
+
+.cell {
+    box-sizing: border-box;
+    flex: 1;
+    background: #000;
+}
+
+.cell.alive {
+    background: #fff;
+}
